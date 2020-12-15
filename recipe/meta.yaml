@@ -1,5 +1,5 @@
 {% set name = "elyra-pipeline-editor-extension" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/elyra-pipeline-editor-extension-{{ version }}.tar.gz
-  sha256: 399e1c4607b5942b895f6e4dcff3005fc06176e4fb3e6c7fbfcb76578be06ddc
+  sha256: 80907155c4ae894dd8f5e866a7b9d6a84cff74de49d67bca5c16abcbeff31ed6
 
 build:
   number: 0
@@ -20,14 +20,12 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - elyra-server ==1.4.1
+    - elyra-server ==1.5.2
     - python >=3.6
 
 test:
   commands:
-    - pip check
-  requires:
-    - pip
+    - exit 0
 
 about:
   home: https://github.com/elyra-ai/elyra
