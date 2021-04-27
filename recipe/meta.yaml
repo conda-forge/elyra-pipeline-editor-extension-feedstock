@@ -11,7 +11,7 @@ source:
   sha256: 11abd926d0400542c94f9651b0683542595ebe6a41e9e30e58bfb4ade6935c91
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://github.com/elyra-ai/elyra
-  summary: Elyra provides AI Centric extensions to JupyterLab
+  summary: Elyra JupyterLab extension providing support for the Pipeline Editor. Learn more at https://elyra.readthedocs.io/en/stable/user_guide/pipelines.html
   license: Apache-2.0
   license_file: LICENSE
 

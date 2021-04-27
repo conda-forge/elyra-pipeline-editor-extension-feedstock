@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elyra-pipeline-editor-extension-feedstock/blob/master/LICENSE.txt)
 
-Summary: Elyra provides AI Centric extensions to JupyterLab
+Summary: Elyra JupyterLab extension providing support for the Pipeline Editor. Learn more at https://elyra.readthedocs.io/en/stable/user_guide/pipelines.html
 
 Current build status
 ====================
