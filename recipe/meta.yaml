@@ -11,7 +11,7 @@ source:
   sha256: aa0a41c2d1f50c74398316f67660ef972077a4c18d5d2b5e872abfdfed5be032
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - elyra-server ==2.2.2
+    - elyra-server ==2.2.4
     - python >=3.6
 
 test:
