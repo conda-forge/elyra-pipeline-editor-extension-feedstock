@@ -1,5 +1,5 @@
 {% set name = "elyra-pipeline-editor-extension" %}
-{% set version = "3.6.1" %}
+{% set version = "3.7.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/elyra-pipeline-editor-extension-{{ version }}.tar.gz
-  sha256: ca8d793b7ed9a97b9f56ee0c31cecce832c2ce91e2852774a6107624949217f5
+  sha256: 863748f6bf1ba823ae97a1664c49c3a815e95244c7412136293a30bb4793a64c
 
 build:
   number: 0
