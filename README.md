@@ -1,11 +1,11 @@
-About elyra-pipeline-editor-extension
-=====================================
+About elyra-pipeline-editor-extension-feedstock
+===============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elyra-pipeline-editor-extension-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/elyra-ai/elyra
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elyra-pipeline-editor-extension-feedstock/blob/main/LICENSE.txt)
 
 Summary: Elyra JupyterLab extension providing support for the Pipeline Editor. Learn more at https://elyra.readthedocs.io/en/stable/user_guide/pipelines.html
 
