@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/elyra-pipeline-editor-extension-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/elyra-pipeline-editor-extension-{{ version }}.tar.gz
   sha256: ad9df20e7a4563e331d70bde3446c2458513a7683a91e3e912dc8adfdeb0e0bf
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,12 +19,14 @@ requirements:
   host:
     - jupyter-packaging
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
     - elyra-server =={{ version }}
-    - python >=3.8
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   commands:
     - exit 0
 
